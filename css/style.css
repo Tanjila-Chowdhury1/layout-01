@@ -1,32 +1,69 @@
 *{
-
-    margin: 0%;
+    margin: 0;
 }
-.menu{
-    width: 33.3%;
-    height: 600px;
+.header{
     background-color: aqua;
+    width: 100%; height: 100px;
+    text-align: center;
+}
+.header h1{
+
+    color: crimson;
+}
+.banner{
+    background-color: darkblue;
+    width: 100%; height: 200px;
+    text-align: center;
+}
+.banner h1{
+    color: deeppink;
+}
+.left-content{
+
+    background-color: indigo;
+    width: 50%; height: 200px;
     text-align: center;
     float: left;
 }
-.page{
-    overflow: hidden;
-    width: 66.6%;
-    float: right;
-
+.left-content h1{
+    color: lawngreen;
 }
-.header{
-    width: 66.6%;
-    height: 100px;
-    background-color: blue;
-    
-}.content{
-    width: 66.6%;
-    height: 400px;
-    background-color: cornflowerblue;
+.right-content{
+    background-color: palegreen;
+    width: 50%; height: 200px;
+    text-align: center;
+    float: right;
+}
+.right-content h1{
+    color: purple;
+}
+.content{
+    overflow: hidden;
+}
+.item-one{
+    background-color: royalblue;
+    width: 33.3%; height: 200px;
+    text-align: center;
+    float: left;
+}
+.item-two{
+    background-color: rgb(225, 65, 118);
+    width: 33.3%; height: 200px;
+    text-align: center;
+    float: left;
+    color: teal;
+}
+.item-three{
+    background-color: rgb(65, 225, 164);
+    width: 33.3%; height: 200px;
+    text-align: center;
+    float: left;
+}
+.item{
+    overflow: hidden;
 }
 .footer{
-    width: 66.6%;
-    height: 100px;
-    background-color: darkgoldenrod;
+    background-color: slategray;
+    width: 100%; height: 300px;
+    text-align: center;
 }
